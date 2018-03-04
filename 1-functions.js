@@ -37,13 +37,19 @@ var assertEquals = require("./test-helper");
 
 // function invertCase(someString) {
 //   var a = someString.split("");
-//   a[0].toLowerCase;
-//   a.join("");
-//   // return a[0];
-//   console.log("a[0]: ", a);
+//   var output = [];
+//   for (var i of a) {
+//     if (i === i.toLowerCase()) {
+//       output.push(i.toUpperCase());
+//     } else {
+//       output.push(i.toLowerCase());
+//     }
+//   }
+//   var finalOutput = output.join("");
+//   return finalOutput;
 // }
 
-// invertCase("hello");
+// invertCase("hELLO wORLD");
 
 // assertEquals(invertCase("Hello"), "hELLO");
-// assertEquals(invertCase('hELLO wORLD'), 'Hello World')
+// assertEquals(invertCase("hELLO wORLD"), "Hello World");
