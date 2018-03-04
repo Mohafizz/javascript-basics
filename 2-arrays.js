@@ -109,14 +109,15 @@ var assertEquals = require("./test-helper");
 
 // function evenNumbersOnly(array) {
 //   var even = [];
-//     for(i of array){
-//       if(i%2!=0){
-//         even.push(array[i]);
-//       }
+//   for (var i of array) {
+//     if (i % 2 === 0) {
+//       even.push(i);
 //     }
-//   return even;
 //   }
-  
+//   return even;
+// }
+
+// // evenNumbersOnly([10, 11, 12]);
 
 // assertEquals(evenNumbersOnly([1, 2, 3, 4]), [2, 4]);
 // assertEquals(evenNumbersOnly([10, 11, 12]), [10, 12]);
