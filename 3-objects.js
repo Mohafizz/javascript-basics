@@ -21,23 +21,23 @@ var assertEquals = require("./test-helper");
 
 /* ---------------------- EXERCISE 2 ---------------------- */
 
-var books = [
-  {
-    author: "Bill Gates",
-    title: "The Road Ahead",
-    isAvailable: true
-  },
-  {
-    author: "JRR Tolkkien",
-    title: "Lord of the Rings",
-    isAvailable: true
-  },
-  {
-    author: "JK Rowling",
-    title: "Harry Potter: The Prisoner of Azkaban",
-    isAvailable: false
-  }
-];
+// var books = [
+//   {
+//     author: "Bill Gates",
+//     title: "The Road Ahead",
+//     isAvailable: true
+//   },
+//   {
+//     author: "JRR Tolkkien",
+//     title: "Lord of the Rings",
+//     isAvailable: true
+//   },
+//   {
+//     author: "JK Rowling",
+//     title: "Harry Potter: The Prisoner of Azkaban",
+//     isAvailable: false
+//   }
+// ];
 
 // 2.1 Define a function listTitles(booksArray) that takes in an array of book objects and returns an array of titles (strings)
 
@@ -114,23 +114,18 @@ var books = [
     - makeSound() // return 'meow!'
     - introduceSelf() // return 'meow! my name is fluffy'
 */
-
 // var fluffycat = {
-//   name: 'fluffy',
-//   type: 'pet',
-//   makesound: function(){
-//     //return 'meow!';
-//     console.log('meow!');
+//   name: "fluffy",
+//   type: "pet",
+
+//   makeSound: function() {
+//     return "meow!";
 //   },
-//   introduceSelf(){
-//     console.log(this.makesound())
-//     console.log("my name is "+this.name)
+
+//   introduceSelf() {
+//     return this.makeSound() + " my name is " + this.name;
 //   }
 // };
-
-// // console.log(fluffycat);
-// fluffycat.makesound();
-// fluffycat.introduceSelf();
 
 // assertEquals(fluffycat.name, "fluffy");
 // assertEquals(fluffycat.type, "pet");
